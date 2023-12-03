@@ -1,0 +1,28 @@
+// src/Button/styles/index.less
+@import '../../variables.less';
+
+.rux-btn {
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.rux-btn-default {
+  background: #fff;
+  color: #333;
+  border: 1px solid #d9d9d9;
+
+  &:hover {
+    color: @rux-primary;
+    border-color: @rux-primary;
+  }
+}
+
+.rux-btn-primary {
+  color: #fff;
+  background: @rux-primary;
+  border: 1px solid @rux-primary;
+}
